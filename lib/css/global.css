@@ -1,0 +1,126 @@
+@charset "utf-8";
+body	{
+background-color:#BEE494;	
+font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.alunos	{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#57565e;
+}
+
+	.perfil{
+		width:270px;
+		height:auto;
+		margin-left:auto;
+		float:left;	
+		position: relative;
+		top: 20%;
+
+	}
+		
+		.perfil p{
+			margin-top:12%
+		}
+	
+	.content{
+		width:950px;
+		height:auto;
+		margin-righ:auto;
+		float:left;	
+		position: relative;
+		top: 5%;
+		padding-top:30px;
+		padding-bottom:30px;	
+	}
+	
+		.nome	{
+		font-size:20px	
+		}
+		
+		.descricao	{
+		font-size:14px	
+		}
+
+.bg-alternate	{
+background-color:#FFFFFF;	
+}
+
+.bg-alternate:nth-of-type(2n)	{
+background-image:url(../img/bg-grey.jpg);
+background-repeat:repeat;	
+}
+#submit-relatorio	{
+background-image:url(../img/editar.jpg);
+width:27px;
+height:27px;
+background-size:cover;
+cursor:pointer;	
+}
+input[type=submit]  {
+
+}
+.login{
+width: 280px;
+height:230px;
+position:fixed;
+top:280px;
+left:150px;
+z-index: 99999;
+background-image:url(../img/imagem_acessar.png);
+}
+.acesso{
+width:50%;
+height:100px;
+float:left;	
+margin-top:10px;
+cursor:pointer;
+}
+
+.em	{
+  width: 194px;
+  height: 38px;
+  margin-left: 15px;
+  margin-right: auto;
+  margin-top: 32px;	
+	background-image:url(../img/botao_usuario.jpg);	
+	padding-left: 50px;
+}
+.pw	{
+	width:194px;
+	height:38px;
+	margin-left:15px;	
+	background-image:url(../img/botao_senha.jpg);
+	padding-left: 50px;
+}
+.lg{
+	width: 194px !important;
+	height: 38px !important;
+	margin-left:40px;
+	margin-top:20px;
+	color:#fff;
+	font-size:22px;
+	background-image:url(../img/botao_entrar.jpg) !important;
+}
+.salvar	{
+	width: 194px !important;
+	height: 38px !important;
+	background-image:url(../img/botao_entrar.jpg) !important;
+	color:#fff;
+	font-size:22px;	
+}
+#relatorio	{
+	background-color:#FFFFFF;
+	
+}
+#relatorio	td{
+	padding:10px;
+	
+}
